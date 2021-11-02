@@ -60,46 +60,67 @@ vue-awesome-swiper（**以下简称swiper-vue**）是一个很不错的swiper包
    - 可传入配置项：
 
      1. loop：
+        
         作用：控制轮播图能否循环播放
+        
         类型：Boolean
+        
         默认：false
-
+        
      2. autoplay：
+
         作用：控制轮播图能否自动播放
+   
         类型：Object || Boolean
+   
         默认：false
-
+   
      3. pagination：
+   
         作用：控制轮播图指示器（小圆点）
+   
         类型：Object
+   
         默认：
-
+   
         ```js
         {
           el: "swiper-pagination",
         }
         ```
-
+   
      4. slidesPerView:
+   
         作用：控制轮播在一屏上显示几个slide
+
         类型：Number
+
         默认：1
+   
      5. slidesPerGroup：
+   
         作用：控制一次播放几张
+   
         类型：Number
+   
         默认：1
+   
      6. effect：
+   
         作用：控制轮播图切换的样式
+   
         类型：String
+   
         默认：'slide'
-
+   
    - 插槽：
-
+   
      1. swiper-slides
+        
         作用：由使用者自己传入需要展示的内容
-
+        
         案例展示：
-
+        
         ```vue
         <!--使用v-for进行条件渲染-->
         <template v-slot:swiper-slides>
@@ -109,7 +130,7 @@ vue-awesome-swiper（**以下简称swiper-vue**）是一个很不错的swiper包
             </div>
         </template>
         ```
-
+        
         ```js
         // 条件渲染需要的数据
         export default {
