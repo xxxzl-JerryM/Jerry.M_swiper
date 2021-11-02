@@ -23,7 +23,7 @@ vue-awesome-swiper（**以下简称swiper-vue**）是一个很不错的swiper包
 
    
 
-2. 点击 [Releases]([Releases · xxxzl-JerryM/Jerry.M_swiper (github.com)](https://github.com/xxxzl-JerryM/Jerry.M_swiper/releases)) 页面，看到最新版本，下载 Assets 模块中的 `Swiper.vue` 文件
+2. 点击 [Releases](https://github.com/xxxzl-JerryM/Jerry.M_swiper/releases)页面，看到最新版本，下载 Assets 模块中的 `Swiper.vue` 文件
 
 3. 下载之后将其放入需要的项目**/src/components**内
 
@@ -165,3 +165,4 @@ vue-awesome-swiper（**以下简称swiper-vue**）是一个很不错的swiper包
 
 1. vue 官方文档：[Vue.js (vuejs.org)](https://cn.vuejs.org/)
 2. swiper官方文档：[Swiper中文网-轮播图幻灯片js插件,H5页面前端开发](https://swiper.com.cn/)
+
