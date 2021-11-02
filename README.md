@@ -1,24 +1,19 @@
-# test_swiper
+# 自封装swiper组件（暂未命名）
 
-## Project setup
-```
-npm install
-```
+## 开发原因？
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+vue-awesome-swiper（**以下简称swiper-vue**）是一个很不错的swiper包应用于vue开发中，但是在使用swiper-vue的时候，对照着swiper官方文档进行调试过程中，出现了许多属性设置后无法实现效果的情况。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+在这种情况，第一反应就是swiper的版本太高，可能文档更新不及时。需要降低swiper的版本。swiper-vue官方文档中提供的低版本下载应用到了项目中。指令失效问题依旧无解，不生效。
 
-### Lints and fixes files
-```
-npm run lint
-```
+无奈之下，准备自己封装一个自己使用。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 版本情况？
+
+- swiper 基于官方V4最终版：`4.5.1`
+- 该swiper组件开发基于vue V2版本：`2.6.11`
+
+## 使用方法？
+
+1. 
+
